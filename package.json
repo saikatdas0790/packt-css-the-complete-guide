@@ -1,0 +1,22 @@
+{
+  "name": "packt-css-the-complete-guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --config bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saikatdas0790/packt-css-the-complete-guide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saikatdas0790/packt-css-the-complete-guide/issues"
+  },
+  "homepage": "https://github.com/saikatdas0790/packt-css-the-complete-guide#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
