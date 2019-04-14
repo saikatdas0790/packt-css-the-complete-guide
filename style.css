@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Anton");
 
 :root {
-  --header-color: #2ddf5c;
+  --theme-green: #2ddf5c;
 }
 
 * {
@@ -22,7 +22,7 @@ body {
 }
 
 .section-title {
-  color: #2ddf5c;
+  color: var(--theme-green);
 }
 
 #product-overview h1 {
@@ -32,6 +32,10 @@ body {
 
 .main-header {
   width: 100%;
-  background-color: var(--header-color);
-  padding: 2vmin;
+  background-color: var(--theme-green);
+  padding: 8px 16px;
+}
+
+.main-nav__item {
+  display: inline-block;
 }
